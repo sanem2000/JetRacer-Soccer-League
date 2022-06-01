@@ -11,7 +11,9 @@ Download dependencies by entering the following commands into the terminal:
 
 ### Install setup tools
 `sudo apt-get update
+
 sudo apt-get install python3-setuptools
+
 sudo apt-get install python3-pip`
 
 `sudo pip3 install packaging
