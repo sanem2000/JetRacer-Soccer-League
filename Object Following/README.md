@@ -4,6 +4,12 @@
 
 This section contains our attempt to train JetRacer to recognize the target object (the soccer ball) and steer in the appropriate direction based on the position of the object in the frame. 
 
+## Setup:
+
+1. For object detection, in this section we have used the tiny-yolo model of Yolov4. To try to train by yourself, please follow the excellent tutorial provided in the darknet github page referenced below.
+2. To try out our implementation, please download all the files provided in this link and place it in a folder of your choice.
+3. Also, please make sure you are using OpenCV version > 4.5
+
 ## Implementation:
 
 Please check out **object_following.ipynb** for our implementation
