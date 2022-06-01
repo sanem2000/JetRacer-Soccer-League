@@ -1,6 +1,6 @@
 # Multi Agent Soccer
 
-[[[https://github.com/USERNAME/REPOSITORY/blob/main/img/octocat.png|alt=octocat](https://github.com/sanem2000/JetRacer-Soccer-League/blob/main/Videos/Pictures/Unity_implementation.png)]]
+![alt text](https://github.com/sanem2000/JetRacer-Soccer-League/blob/main/Videos/Pictures/Unity_implementation.png)
 
 This section contains our attempt to train soccer agents(striker and keeper) to coordinatively play soccer in Unity's Soccer Twos Environment using Deep Reinforcement Learning. 
 
