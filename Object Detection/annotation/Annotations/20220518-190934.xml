@@ -1,0 +1,15 @@
+<annotation>
+    <filename>20220518-190934.jpg</filename>
+    <folder>annotation</folder>
+    <source>
+        <database>annotation</database>
+        <annotation>custom</annotation>
+        <image>custom</image>
+    </source>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+</annotation>

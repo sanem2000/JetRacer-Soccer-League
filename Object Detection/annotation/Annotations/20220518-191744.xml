@@ -1,0 +1,27 @@
+<annotation>
+    <filename>20220518-191744.jpg</filename>
+    <folder>annotation</folder>
+    <source>
+        <database>annotation</database>
+        <annotation>custom</annotation>
+        <image>custom</image>
+    </source>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>ball</name>
+        <pose>unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>649</xmin>
+            <ymin>156</ymin>
+            <xmax>896</xmax>
+            <ymax>411</ymax>
+        </bndbox>
+    </object>
+</annotation>

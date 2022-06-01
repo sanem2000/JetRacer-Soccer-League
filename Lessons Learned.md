@@ -1,0 +1,9 @@
+**Work in parallel as much as possible.** There were times during the project where we would have multiple teammates working on the same task when we could have been working on multiple tasks simultaneously and accomplished more. We learned that planning tasks and separating these tasks as much as possible yielded productivity.
+
+**Over-communicate with teammates and mentors.** Understanding what you and your teammates are working on improves productivity and allows group members and mentors to offer more help when needed.
+
+**Assume that everything will fail the first time you do it.** Our team used many tutorials to set up tasks like basic motion and object detection. The tutorials made this setup seem very easy, but we always ran into low-level problems that would take much longer than expected to resolve. We learned that anticipating problems, thinking of backup plans, and starting early are all good practices.
+
+**Translating code between JetRace and other NVIDIA products is time consuming and can lead to dependency issues.** When completing object following, the team modified the JetBot repository. This process was more difficult than anticipated and led to many dependency issues. In the future, try to prevent this as much as possible.
+
+**Be aware of memory space on Jetson Nano board.** The work that was completed in the first 6 months of the project was able to be done on a 2GB Jetson Nano, although at times the team noticed slow performance. As more modules and dependencies are added to the Jetson Nano, memory space must be monitored and you must make sure that only necessary dependencies are being downloaded.
