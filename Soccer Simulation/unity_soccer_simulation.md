@@ -6,21 +6,18 @@ This section contains our attempt to train soccer agents(striker and keeper) to 
 
 ## Reward Structure:
 
-Keeper:
-• -1 when the ball enters the team’s goal
-• +0.1 when the ball enters the opponent’s goal
-• +0.001 existential bonus (to make sure the keeper prolongs the episode as the ball should not enter
-the team’s goal)
-• -0.03 when the ball is not in view
+  1. Keeper:
+    • -1 when the ball enters the team’s goal
+    • +0.1 when the ball enters the opponent’s goal
+    • +0.001 existential bonus (to make sure the keeper prolongs the episode as the ball should not enter the team’s goal)
+    • -0.03 when the ball is not in view
 
-Striker:
-• +1 when the ball enters the opponent’s goal
-• -0.1 when the ball enters own team’s goal
-• -0.001 existential penalty (to ensure the striker does not cheat and stays still. This ensures that
-the agent accumulates a penalty as time increases and looks to end the episode soon by hitting it
-into the opponent’s goal.)
-• -0.03 when the ball is not in view
-• +0.3 when striker kicks the ball
+   2. Striker:
+    • +1 when the ball enters the opponent’s goal
+    • -0.1 when the ball enters own team’s goal
+    • -0.001 existential penalty (to ensure the striker does not cheat and stays still. This ensures that the agent accumulates a penalty as time increases and looks to end the episode soon by hitting it into the opponent’s goal.)
+    • -0.03 when the ball is not in view
+    • +0.3 when striker kicks the ball
 
 ## Implementation:
 
