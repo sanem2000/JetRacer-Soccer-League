@@ -4,7 +4,7 @@ Before running through any JetRacer modules, follow these steps to download the 
 ## Flash Jetson Nano Image
 Setup the base image for the 2GB Jetson Nano following [these instructions](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-2gb-devkit#intro)
 You should use a microSD card of at least 64GB
-On the existing Jetson Nanos, the username is *Jetson* and the password is **ee497*.
+On the existing Jetson Nanos, the username is *Jetson* and the password is *ee497*.
 
 ## Install Dependencies
 Install the necessary dependencies by entering the following commands into the terminal:
